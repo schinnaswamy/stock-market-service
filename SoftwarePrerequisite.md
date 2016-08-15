@@ -1,5 +1,5 @@
 # stock-market-service
-a sample super stock market service developed using java
+a sample super stock market service developed using java and its a maven project.
 
 To run this project in any machine following softwares are required 
 
