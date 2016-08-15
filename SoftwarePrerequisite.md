@@ -28,8 +28,8 @@ mvn clean install
 
 Once this command is executed the output stock-market-service artifact will get created in the target directory. 
 
-Important : To run the application run the following command
-============================================================
+Important : To run the application execute the following command
+=================================================================
 
 mvn exec:java
 
