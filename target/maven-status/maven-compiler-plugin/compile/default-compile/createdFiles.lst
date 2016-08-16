@@ -1,0 +1,10 @@
+com\jpm\stocks\beans\Stock.class
+com\jpm\stocks\utils\StockType.class
+com\jpm\stocks\utils\TradeType.class
+com\jpm\stocks\utils\DateUtils.class
+com\jpm\stocks\service\StockMarketServiceImpl.class
+com\jpm\stocks\ApplicationMain.class
+com\jpm\stocks\dto\StockMarketDtoImpl.class
+com\jpm\stocks\dto\StockMarketDto.class
+com\jpm\stocks\beans\Trade.class
+com\jpm\stocks\service\StockMarketService.class
