@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.543010752688172" branch-rate="0.5588235294117647" lines-covered="101" lines-valid="186" branches-covered="19" branches-valid="34" complexity="1.36" version="2.1.1" timestamp="1471313966070">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/user/workspace/stock-market-service/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.jpm.stocks" line-rate="0.0" branch-rate="0.0" complexity="3.0">
+			<classes>
+				<class name="com.jpm.stocks.ApplicationMain" filename="com/jpm/stocks/ApplicationMain.java" line-rate="0.0" branch-rate="0.0" complexity="3.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="81" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+								<line number="97" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="103" hits="0" branch="false"/>
+								<line number="105" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="121" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="129" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+								<line number="132" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+								<line number="139" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="143" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+								<line number="153" hits="0" branch="false"/>
+								<line number="156" hits="0" branch="false"/>
+								<line number="158" hits="0" branch="false"/>
+								<line number="159" hits="0" branch="false"/>
+								<line number="160" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+								<line number="165" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="stockMap" signature="()Ljava/util/Map;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="tradeList" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+								<line number="71" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="30" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="103" hits="0" branch="false"/>
+						<line number="105" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="121" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="129" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+						<line number="139" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="143" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="156" hits="0" branch="false"/>
+						<line number="158" hits="0" branch="false"/>
+						<line number="159" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.jpm.stocks.beans" line-rate="0.7291666666666666" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.jpm.stocks.beans.Stock" filename="com/jpm/stocks/beans/Stock.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lcom/jpm/stocks/utils/StockType;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="300" branch="false"/>
+								<line number="19" hits="300" branch="false"/>
+								<line number="20" hits="300" branch="false"/>
+								<line number="21" hits="300" branch="false"/>
+								<line number="22" hits="300" branch="false"/>
+								<line number="23" hits="300" branch="false"/>
+								<line number="24" hits="300" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFixedDividend" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="51" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLastDividend" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getParValue" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getStockSymbol" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="90" branch="false"/>
+							</lines>
+						</method>
+						<method name="getStockType" signature="()Lcom/jpm/stocks/utils/StockType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setFixedDividend" signature="(D)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="300" branch="false"/>
+								<line number="56" hits="300" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLastDividend" signature="(D)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="47" hits="300" branch="false"/>
+								<line number="48" hits="300" branch="false"/>
+							</lines>
+						</method>
+						<method name="setParValue" signature="(D)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="300" branch="false"/>
+								<line number="64" hits="300" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStockSymbol" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="300" branch="false"/>
+								<line number="32" hits="300" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStockType" signature="(Lcom/jpm/stocks/utils/StockType;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="300" branch="false"/>
+								<line number="40" hits="300" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="300" branch="false"/>
+						<line number="19" hits="300" branch="false"/>
+						<line number="20" hits="300" branch="false"/>
+						<line number="21" hits="300" branch="false"/>
+						<line number="22" hits="300" branch="false"/>
+						<line number="23" hits="300" branch="false"/>
+						<line number="24" hits="300" branch="false"/>
+						<line number="27" hits="90" branch="false"/>
+						<line number="31" hits="300" branch="false"/>
+						<line number="32" hits="300" branch="false"/>
+						<line number="35" hits="6" branch="false"/>
+						<line number="39" hits="300" branch="false"/>
+						<line number="40" hits="300" branch="false"/>
+						<line number="43" hits="6" branch="false"/>
+						<line number="47" hits="300" branch="false"/>
+						<line number="48" hits="300" branch="false"/>
+						<line number="51" hits="3" branch="false"/>
+						<line number="55" hits="300" branch="false"/>
+						<line number="56" hits="300" branch="false"/>
+						<line number="59" hits="3" branch="false"/>
+						<line number="63" hits="300" branch="false"/>
+						<line number="64" hits="300" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.jpm.stocks.beans.Trade" filename="com/jpm/stocks/beans/Trade.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(IDLcom/jpm/stocks/utils/TradeType;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="18" branch="false"/>
+								<line number="30" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(IDLcom/jpm/stocks/utils/TradeType;Ljava/lang/String;Ljava/util/Date;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="48" branch="false"/>
+								<line number="21" hits="48" branch="false"/>
+								<line number="22" hits="48" branch="false"/>
+								<line number="23" hits="48" branch="false"/>
+								<line number="24" hits="48" branch="false"/>
+								<line number="25" hits="48" branch="false"/>
+								<line number="26" hits="48" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPrice" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="18" branch="false"/>
+							</lines>
+						</method>
+						<method name="getQuantity" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="getStockSymbol" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="90" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTradeDate" signature="()Ljava/util/Date;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="240" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTradeType" signature="()Lcom/jpm/stocks/utils/TradeType;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setPrice" signature="(D)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setQuantity" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStockSymbol" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTradeDate" signature="(Ljava/util/Date;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTradeType" signature="(Lcom/jpm/stocks/utils/TradeType;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="61" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="48" branch="false"/>
+						<line number="21" hits="48" branch="false"/>
+						<line number="22" hits="48" branch="false"/>
+						<line number="23" hits="48" branch="false"/>
+						<line number="24" hits="48" branch="false"/>
+						<line number="25" hits="48" branch="false"/>
+						<line number="26" hits="48" branch="false"/>
+						<line number="29" hits="18" branch="false"/>
+						<line number="30" hits="18" branch="false"/>
+						<line number="33" hits="90" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="41" hits="36" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="49" hits="18" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="65" hits="240" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.jpm.stocks.dto" line-rate="1.0" branch-rate="0.5" complexity="1.125">
+			<classes>
+				<class name="com.jpm.stocks.dto.StockMarketDto" filename="com/jpm/stocks/dto/StockMarketDto.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.jpm.stocks.dto.StockMarketDtoImpl" filename="com/jpm/stocks/dto/StockMarketDtoImpl.java" line-rate="1.0" branch-rate="0.5" complexity="1.2">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="3" branch="false"/>
+								<line number="18" hits="3" branch="false"/>
+								<line number="20" hits="3" branch="false"/>
+								<line number="21" hits="3" branch="false"/>
+								<line number="22" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getStockMap" signature="()Ljava/util/Map;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTradeList" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="51" hits="33" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordTrade" signature="(Lcom/jpm/stocks/beans/Trade;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="29" hits="48" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="30" hits="48" branch="false"/>
+								<line number="32" hits="48" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStockMap" signature="(Ljava/util/Map;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="18" branch="false"/>
+								<line number="36" hits="18" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="3" branch="false"/>
+						<line number="18" hits="3" branch="false"/>
+						<line number="20" hits="3" branch="false"/>
+						<line number="21" hits="3" branch="false"/>
+						<line number="22" hits="3" branch="false"/>
+						<line number="29" hits="48" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="30" hits="48" branch="false"/>
+						<line number="32" hits="48" branch="false"/>
+						<line number="35" hits="18" branch="false"/>
+						<line number="36" hits="18" branch="false"/>
+						<line number="43" hits="3" branch="false"/>
+						<line number="51" hits="33" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.jpm.stocks.service" line-rate="1.0" branch-rate="0.8333333333333334" complexity="1.6923076923076923">
+			<classes>
+				<class name="com.jpm.stocks.service.StockMarketService" filename="com/jpm/stocks/service/StockMarketService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.jpm.stocks.service.StockMarketServiceImpl" filename="com/jpm/stocks/service/StockMarketServiceImpl.java" line-rate="1.0" branch-rate="0.8333333333333334" complexity="2.2857142857142856">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="3" branch="false"/>
+								<line number="23" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="calculateDividend" signature="(Lcom/jpm/stocks/beans/Stock;D)D" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="36" hits="6" branch="false"/>
+								<line number="38" hits="6" branch="false"/>
+								<line number="40" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="42" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="43" hits="3" branch="false"/>
+								<line number="47" hits="3" branch="false"/>
+								<line number="51" hits="6" branch="false"/>
+								<line number="52" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="calculateGBCEAllShareIndex" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="116" hits="3" branch="false"/>
+								<line number="118" hits="3" branch="false"/>
+								<line number="119" hits="3" branch="false"/>
+								<line number="120" hits="3" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="121" hits="15" branch="false"/>
+								<line number="122" hits="15" branch="false"/>
+								<line number="123" hits="15" branch="false"/>
+								<line number="124" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="calculatePERatio" signature="(Lcom/jpm/stocks/beans/Stock;D)D" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="59" hits="3" branch="false"/>
+								<line number="61" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="62" hits="3" branch="false"/>
+								<line number="64" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordTrade" signature="(Lcom/jpm/stocks/beans/Trade;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="48" branch="false"/>
+								<line number="72" hits="48" branch="false"/>
+							</lines>
+						</method>
+						<method name="setStockMarketDto" signature="(Lcom/jpm/stocks/dto/StockMarketDto;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="3" branch="false"/>
+								<line number="28" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="volumeWeightedStockPriceForAllStocks" signature="(Ljava/util/Collection;)Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="79" hits="3" branch="false"/>
+								<line number="80" hits="3" branch="false"/>
+								<line number="82" hits="3" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="83" hits="15" branch="false"/>
+								<line number="84" hits="15" branch="false"/>
+								<line number="85" hits="15" branch="false"/>
+								<line number="86" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="volumeWeightedStockPriceWithTimeRange" signature="(Lcom/jpm/stocks/beans/Stock;I)D" line-rate="1.0" branch-rate="0.875" complexity="0">
+							<lines>
+								<line number="95" hits="30" branch="false"/>
+								<line number="96" hits="30" branch="false"/>
+								<line number="98" hits="30" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="240" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="101" hits="90" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="102" hits="18" branch="false"/>
+								<line number="103" hits="18" branch="false"/>
+								<line number="107" hits="240" branch="false"/>
+								<line number="108" hits="30" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="3" branch="false"/>
+						<line number="23" hits="3" branch="false"/>
+						<line number="24" hits="3" branch="false"/>
+						<line number="27" hits="3" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="36" hits="6" branch="false"/>
+						<line number="38" hits="6" branch="false"/>
+						<line number="40" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="42" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="43" hits="3" branch="false"/>
+						<line number="47" hits="3" branch="false"/>
+						<line number="51" hits="6" branch="false"/>
+						<line number="52" hits="6" branch="false"/>
+						<line number="59" hits="3" branch="false"/>
+						<line number="61" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="62" hits="3" branch="false"/>
+						<line number="64" hits="3" branch="false"/>
+						<line number="71" hits="48" branch="false"/>
+						<line number="72" hits="48" branch="false"/>
+						<line number="79" hits="3" branch="false"/>
+						<line number="80" hits="3" branch="false"/>
+						<line number="82" hits="3" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="83" hits="15" branch="false"/>
+						<line number="84" hits="15" branch="false"/>
+						<line number="85" hits="15" branch="false"/>
+						<line number="86" hits="3" branch="false"/>
+						<line number="95" hits="30" branch="false"/>
+						<line number="96" hits="30" branch="false"/>
+						<line number="98" hits="30" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="240" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="101" hits="90" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="102" hits="18" branch="false"/>
+						<line number="103" hits="18" branch="false"/>
+						<line number="107" hits="240" branch="false"/>
+						<line number="108" hits="30" branch="false"/>
+						<line number="116" hits="3" branch="false"/>
+						<line number="118" hits="3" branch="false"/>
+						<line number="119" hits="3" branch="false"/>
+						<line number="120" hits="3" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="121" hits="15" branch="false"/>
+						<line number="122" hits="15" branch="false"/>
+						<line number="123" hits="15" branch="false"/>
+						<line number="124" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.jpm.stocks.utils" line-rate="0.8461538461538461" branch-rate="0.75" complexity="2.0">
+			<classes>
+				<class name="com.jpm.stocks.utils.DateUtils" filename="com/jpm/stocks/utils/DateUtils.java" line-rate="0.7777777777777778" branch-rate="0.75" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDateWithDelayInMins" signature="(I)Ljava/util/Date;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="30" branch="false"/>
+								<line number="39" hits="30" branch="false"/>
+								<line number="40" hits="30" branch="false"/>
+							</lines>
+						</method>
+						<method name="isEligibleTimeRange" signature="(ILjava/util/Date;)Z" line-rate="0.8" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="21" hits="240" branch="false"/>
+								<line number="22" hits="240" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="23" hits="0" branch="false"/>
+								<line number="25" hits="240" branch="false"/>
+								<line number="27" hits="240" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="0" branch="false"/>
+						<line number="21" hits="240" branch="false"/>
+						<line number="22" hits="240" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="23" hits="0" branch="false"/>
+						<line number="25" hits="240" branch="false"/>
+						<line number="27" hits="240" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="38" hits="30" branch="false"/>
+						<line number="39" hits="30" branch="false"/>
+						<line number="40" hits="30" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.jpm.stocks.utils.StockType" filename="com/jpm/stocks/utils/StockType.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="9" branch="false"/>
+								<line number="8" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/jpm/stocks/utils/StockType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/jpm/stocks/utils/StockType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="9" branch="false"/>
+						<line number="8" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.jpm.stocks.utils.TradeType" filename="com/jpm/stocks/utils/TradeType.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="9" branch="false"/>
+								<line number="8" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/jpm/stocks/utils/TradeType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/jpm/stocks/utils/TradeType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="9" branch="false"/>
+						<line number="8" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
